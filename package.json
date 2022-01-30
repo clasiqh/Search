@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "name": "dictionary-search",
+  "version": "1.0.0",
+  "description": "searches dictionary words",
+  "main": "main.js",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clasiqh/Search.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clasiqh/Search/issues"
+  },
+  "homepage": "https://github.com/clasiqh/Search#readme"
+}

@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Search Stuff</title>
     <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
   </head>
   <body>
-    <div class="container flex">
+    <div class="container unselectable">
       <h1>search stuff.</h1>
       <div>
-        <input type="search" />
+        <input type="search" id="query" />
         <button>search</button>
       </div>
+      <div id="suggestions"></div>
     </div>
   </body>
 </html>
