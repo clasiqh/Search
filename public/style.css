@@ -10,15 +10,19 @@ body {
   color: white;
   height: 100vh;
 }
-.container {
-  flex-direction: column;
-}
 
 body,
 .flex {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.container {
+  height: 500px;
+}
+
+.static {
+  margin-top: 100px;
 }
 
 h1 {
@@ -82,10 +86,11 @@ button:hover {
 }
 
 #suggestions {
-  transition: 0.5s ease;
+  transition: 0.2s ease;
   background-color: rgba(255, 255, 255, 0.08);
   padding: 2px;
   display: none;
+  flex-direction: column;
   position: relative;
   border-radius: 6px;
   width: 500px;
@@ -96,10 +101,13 @@ button:hover {
   display: flex;
   align-items: center;
   color: white;
-  background-color: rgba(255, 255, 255, 0.02);
-  height: 32px;
+  background-color: rgba(255, 255, 255, 0.028);
+  min-height: 36px;
   border-radius: 4px;
-  padding-left: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
   font-size: 12px;
-  margin: 5px;
+  margin: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
