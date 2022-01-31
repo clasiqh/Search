@@ -22,7 +22,7 @@ body,
 }
 
 .static {
-  margin-top: 100px;
+  margin-top: 128px;
 }
 
 h1 {
@@ -107,7 +107,11 @@ button:hover {
   padding-left: 12px;
   padding-right: 12px;
   font-size: 12px;
-  margin: 4px;
+  margin: 2px;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.box:hover {
+  background-color: rgba(0, 255, 255, 0.185);
 }
