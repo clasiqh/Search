@@ -115,3 +115,24 @@ button:hover {
 .box:hover {
   background-color: rgba(0, 255, 255, 0.185);
 }
+
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-size: 48px;
+    margin: 6px;
+  }
+
+  #suggestions {
+    width: 60vw;
+  }
+
+  input {
+    height: 46px;
+    width: 50vw;
+  }
+
+  input:focus {
+    width: 60vw;
+  }
+}

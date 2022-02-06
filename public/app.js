@@ -36,7 +36,7 @@ function search() {
 function closeSuggestions() {
   if (state) {
     suggestions.style.opacity = 0;
-    suggestions.style.width = "360px";
+    suggestions.style.width = document.getElementById("query").style.width;
     setTimeout(() => {
       suggestions.style.display = "none";
     }, 200);
@@ -47,7 +47,7 @@ function closeSuggestions() {
 function showSuggestions() {
   if (!state) {
     suggestions.style.display = "flex";
-    suggestions.style.width = "500px";
+    suggestions.style.width = document.getElementById("query").style.width;
     suggestions.style.opacity = 100;
     state = true;
   }
